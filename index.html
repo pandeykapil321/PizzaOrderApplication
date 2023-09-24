@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pizza Order Appication</title>
+</head>
+<h1>Order Pizza</h1>
+<body>
+    <main>
+        <form id="PizaOrderForm">
+            <h2>Special Pizza</h2>
+            <p>
+                we offer very special pizza . our pizza is the special pizza in the town.
+                Our pizza is higly rated in of the city. 
+            </p>
+                <h3>Cusotmer Details </h3>
+                <div>
+                    <label for="name">Your name</label>
+                    <input id type="text" id="name" placeholder="Enter Your Name"/>
+                </div>
+                <h3>Size</h3>
+                <div>
+                    
+                    <input type="radio" name="size" id="forTwo">
+                    <label for="forTwo">For Two(7.5€)</label>
+                    
+                </div>
+                <div>
+                    
+                    <input type="radio" name="size" id="forFour">
+                    <label for="forTwo">For Four(10.5€)</label>
+                    
+                </div>
+                <div>
+                    
+                    <input type="radio" name="size" id="forSix">
+                    <label for="forSix">For Six(12.5€)</label>
+                    
+                </div>
+                <div>
+                    
+                    <input type="radio" name="size" id="forEight">
+                    <label for="forTwo">For Eight(15.5€)</label>
+                    
+                </div>
+                
+            <h3>Toppings</h3>
+            <div>
+                <input type="checkbox" name="Chicken" id="Chicken">
+                <label for="Chicken">Chicken</label>
+            </div>
+            <div>
+                <input type="checkbox" name="Pineapple" id="Pineapple">
+                <label for="Pineapple">Pineapple</label>
+            </div>
+            <div>
+                <input type="checkbox" name="Cheese" id="Cheese">
+                <label for="Cheese">Cheese</label>
+            </div>
+            <div>
+                <input type="checkbox" name="Capsicum" id="Capsicum">
+                <label for="Capsicum">Capsicum<label>
+            </div>
+            <div>
+                <input type="checkbox" name="Jalopina" id="Jalopina">
+                <label for="Jalopina">Jalopina</label>
+            </div>
+            <div>
+                <input type="checkbox" name="Chilli" id="Chilli">
+                <label for="Chilli">Chilli</label>
+            </div>
+            <div>
+                <input type="checkbox" name="Ham" id="Ham">
+                <label for="Ham">Ham</label>
+            </div>
+            <div>
+                <input type="checkbox" name="Olive" id="Olive">
+                <label for="Olive">Olive</label>
+            </div>
+            <div>
+                <input type="checkbox" name="lamb" id="Lamb">
+                <label for="Lamb">Lamb</label>
+            </div>
+            <div>
+                <input type="checkbox" name="Carrot" id="Carrot">
+                <label for="Carrot">Carrot</label>
+            </div>
+            <h3>Delivery</h3>
+            <select name="deliver" id="delivery">
+                <option selected disabled value="empty">
+                    Select delivery method:
+                </option>
+                <option value="home">Delivery to home</option>
+                <option value="eat in">Eat in</option>
+                <option value="pickup">Pickup food</option>
+            </select>
+
+            <div class="price">
+                <p><span id="price">7.50</span>€</p>
+            </div>
+
+        </form>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>
